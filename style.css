@@ -1,0 +1,90 @@
+/* Index for CSS*/
+/*1. Common styling
+- Fonts
+- Body and header
+- Text and images
+- Footer
+
+2. Individual page styling
+- Index/front page
+
+- Projects overview
+- Projects - pages
+- CV/About
+
+- Designs
+- Photography
+
+*/
+
+/*Common styling*/
+p {
+    font-family: hero-new, sans-serif;
+
+    font-weight: 300;
+
+    font-style: normal;
+}
+
+
+h1,
+h2,
+h3,
+h4 {
+
+    font-family: parkside, cursive;
+    font-weight: 300;
+    font-style: normal;
+    color: #D8A7A7;
+}
+
+
+/*Individual page styling */
+/*Front page*/
+.background_color1 {
+    background-color: #D8A7A7;
+
+}
+
+.background_color2 {
+    background-color: white;
+}
+
+.box1 {
+    box-shadow: 10px 10px 10px 10px #C48383;
+}
+
+.bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.bg1 {
+    background-image: url("img/photo/landscape_full.JPG");
+}
+
+/*footer*/
+footer {
+    background-color: white;
+    color: black;
+}
+
+
+
+.some_logo {
+    width: 15px;
+    margin: 10px;
+}
+
+.some_logo:hover {
+    width: 18px;
+    margin: 10px;
+}
