@@ -38,6 +38,9 @@ h4 {
     color: #D8A7A7;
 }
 
+.white_heading {
+    color: white
+}
 
 /*Individual page styling */
 /*Front page*/
@@ -53,6 +56,16 @@ h4 {
 .box1 {
     box-shadow: 10px 10px 10px 10px #C48383;
 }
+
+.parallax {
+    position: relative;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
 
 .bg {
     position: absolute;
